@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Playfair+Display');
+
+
+p {font-family: 'Playfair Display', serif;
+}
+
+
+h1, h2 {font-family: 'Dosis', sans-serif;
+}

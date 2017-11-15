@@ -1,0 +1,92 @@
+/*@import url('https://fonts.googleapis.com/css?family=Mukta|Slabo+27px');*/
+/*@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');*/
+/*@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|*/
+/*        Gloria+Hallelujah|Indie+Flower');*/
+        
+nav a{  font-family: 'Roboto Condensed', sans-serif; color: #4a342b;
+        /*color: rgba(214, 219, 223, 1);*/
+        text-align: center;
+        padding: 14px 16px;
+        margin: 10px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #ddd;
+        color: black;
+        
+}
+
+header {background-image: url("freq2.jpg");
+        position: relative;
+        height: 175px;
+}
+
+/*.header-image {height: 150px;*/
+
+nav {display: flex;
+        justify-content: flex-end; 
+        position: relative;
+        align-items: baseline;
+        /*z-index: 1*/
+       
+}
+
+body {background-color: rgb(120, 144, 156);
+        width: 50%
+        margin: auto;
+}
+
+logo {font-family: 'Architects Daughter', cursive;
+        color: rgba(214, 219, 223, 1);
+        font-size: 30px;
+}
+
+.definition p {font-family: 'Roboto Condensed', sans-serif; 
+        color: #4a342b;
+        color: rgba(214, 219, 223, 1);
+        margin: 20px;
+}
+
+.definition {background-color: rgba(17, 33, 50, .75);
+                padding:10px;
+                position: relative;
+}
+
+h1 {font-family: 'Mukta', sans-serif; 
+        color: rgba(214, 219, 223, 1);
+        margin-top: 50px;
+}
+
+h2 {font-family: 'Mukta', sans-serif; 
+        color: rgba(214, 219, 223, 1);
+                margin: 15px;
+        
+}
+
+
+.gallery1 {display: flex;
+                flex-wrap: wrap;
+                align-items: space-between;
+                justify-content: center;
+                align-content: stretch;
+        
+}
+
+.gallery2 {display: flex;
+                flex-wrap: wrap;
+                align-items: space-between;
+                justify-content: center;
+                align-content: stretch;
+               
+}
+
+.item {
+        position: relative;
+        margin: 15px;
+
+}
+
+.img gallery {
+        position: relative
+        z-index: 0;
+}
+
